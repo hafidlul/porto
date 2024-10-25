@@ -352,6 +352,57 @@ section .button button:hover{
 .PROJECT .boxes .box:hover p{
   color: #fff;
 }
+/* Certifications Section Styling */
+.certifications .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Space between certification boxes */
+}
+
+.certifications .boxes .box {
+  margin: 20px 0; /* Margin for spacing */
+  width: calc(100% / 3 - 20px); /* Three boxes per row */
+  text-align: center; /* Center text */
+  border-radius: 12px; /* Rounded corners */
+  padding: 30px 10px; /* Padding inside the box */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12); /* Shadow effect */
+  transition: all 0.4s ease; /* Transition for hover effect */
+  background: #fff; /* White background for certification box */
+}
+
+.certifications .boxes .box:hover {
+  background: #4070f4; /* Change background on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+.certifications .boxes .box .icon {
+  height: 50px; /* Icon height */
+  width: 50px; /* Icon width */
+  background: #4070f4; /* Icon background color */
+  border-radius: 50%; /* Circular icon */
+  text-align: center; /* Center icon text */
+  line-height: 50px; /* Center icon vertically */
+  font-size: 18px; /* Icon font size */
+  color: #fff; /* Icon text color */
+  margin: 0 auto 10px auto; /* Center icon and space below */
+}
+
+.certifications .boxes .box:hover .icon {
+  background-color: #fff; /* Change icon background on hover */
+  color: #4070f4; /* Change icon text color on hover */
+}
+
+.certifications .boxes .box .topic {
+  font-size: 20px; /* Font size for topic */
+  color: #0E2431; /* Dark color for topic */
+  font-weight: 500; /* Font weight */
+  margin-bottom: 10px; /* Space below topic */
+}
+
+.certifications .boxes .box p {
+  color: #555; /* Dark gray for description */
+  text-align: justify; /* Justify text */
+}
 /* Contact Me CSS */
 .contact{
   background: #F0F8FF;
